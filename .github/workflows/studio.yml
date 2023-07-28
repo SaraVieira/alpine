@@ -70,7 +70,7 @@ jobs:
         run: ${{ steps.pkgman.outputs.package_manager }} nuxi generate
         env:
           NUXT_PUBLIC_STUDIO_API_URL: https://api.nuxt.studio
-          NUXT_PUBLIC_STUDIO_TOKENS: 047ed798a81e0064a8543907e7cb8515efd518a2a287ce77414b1d0e52973856
+          NUXT_PUBLIC_STUDIO_TOKENS: 4f64b623a4e7d732a7dc31f93e51f77c9113491c1747fad6f038ac646808ad6c
 
       - name: Add .nojekyll file
         run: touch .output/public/.nojekyll
